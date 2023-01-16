@@ -47,8 +47,6 @@ color: #2E2F42;
 }
 
 .contacts {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -58,8 +56,6 @@ color: #2E2F42;
 .hero {
  
     background: #2E2F42;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -69,8 +65,7 @@ color: #2E2F42;
 }
 
 .button-service {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -79,7 +74,10 @@ color: #2E2F42;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
-
+}
+.button-service:hover,
+.button-service:focus {
+    background: #2E2F42;
 }
 
 .features-title{
@@ -134,5 +132,60 @@ color: #434455;
 
 .footer {
 
-    
+background-color: #2E2F42;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #E7E9FC;
+}
+
+.web-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.studio-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.filter-button {
+background: #F4F4FD;
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background: #404BBF;
+    color: #F4F4FD;
+}
+
+.portfolio h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.1;
+    color: #2E2F42;
+}
+.portfolio p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
 }
