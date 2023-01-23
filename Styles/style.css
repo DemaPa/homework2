@@ -1,61 +1,80 @@
+:root {
+
+    /* fonts */
+    --primary-font: Roboto, sanserif;
+    
+    /* background color */
+    --background-color: white;
+    --background-color-dark: #2E2F42;
+    --background-color-section: #F4F4FD;
+    
+    /* text colors*/
+
+    --txt-cl:#2E2F42;
+    --txt-cl-dark:#ffffff;
+    --txt-cl-scnd:#434455;
+}
+
 body {
-    background-color: #E5E5E5;
-    font-family: Roboto, sans-serif;
+    background-color: var(--background-color);
+    font-size: 16px;
     letter-spacing: 0.02em;
-
-
 }
 
 a {
     text-decoration: none;
 }
 
+.list {
+    list-style: none;
+}
+
+
+
 .header {
 
 }
  
-.studio {
-color: #2E2F42;
-
+.logo {
+    color: var(--txt-cl);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .web {
     color: #4D5AE5
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.3;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
 }
+
 
 .navigation {
 
-    color: #2E2F42;
+    color: var(--txt-cl)
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
+    
 }
+
+.navigation :hover,
+.navigation :focus
 
 .contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(txt-cl-scnd);
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .hero {
  
-    background: #2E2F42;
+    background: var(--background-color-dark);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
