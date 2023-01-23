@@ -41,9 +41,9 @@ a {
     text-transform: uppercase;
 }
 
-.logo :hover,
-.logo :focus {
-    color: var(--txt-cl-scnd);
+.logo:hover,
+.logo:focus {
+    color: #4D5AE5;
 }
 
 .web {
@@ -61,9 +61,9 @@ a {
     letter-spacing: 0.02em;
 }
 
-.navlink :hover,
-.navlink :focus {
-    color: var(--txt-cl-scnd);
+.navlink:hover,
+.navlink:focus {
+    color: #4D5AE5;
 }
     
 
@@ -75,10 +75,10 @@ a {
     font-style: normal;
     letter-spacing: 0.02em;
 }
-.contactlink :hover,
-.contactlink :focus {
+.contactlink:hover,
+.contactlink:focus {
 
-    color: var(--txt-cl);
+    color: #4D5AE5;
 }
 .herotitle {
     font-weight: 700;
