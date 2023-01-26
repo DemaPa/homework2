@@ -4,7 +4,7 @@
     --primary-font: Roboto, sanserif;
     
     /* background color */
-    --background-color: white;
+    --background-color: #FFFFFF;
     --background-color-dark: #2E2F42;
     --background-color-section: #F4F4FD;
     
@@ -13,12 +13,15 @@
     --txt-cl:#2E2F42;
     --txt-cl-dark:#ffffff;
     --txt-cl-scnd:#434455;
+    --txt-cl-logo: #4D5AE5;
+
 }
 
 body {
     background-color: var(--background-color);
     font-size: 16px;
-    letter-spacing: 0.02em;
+    font-family: Roboto, sanserif;
+    
 }
 
 a {
@@ -41,52 +44,44 @@ a {
     text-transform: uppercase;
 }
 
-.logo:hover,
-.logo:focus {
-    color: #4D5AE5;
-}
 
 .web {
-    color: #4D5AE5;
+    color: var(--txt-cl-logo);
 }
 
 
-.navlink{
+.nav-link{
 
     color: var(--txt-cl);
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
     letter-spacing: 0.02em;
 }
 
-.navlink:hover,
-.navlink:focus {
-    color: #4D5AE5;
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--txt-cl-logo)
 }
     
 
-.contactlink{
+.contact-link{
+    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     color: var(--txt-cl-scnd);
-    font-style: normal;
     letter-spacing: 0.02em;
 }
-.contactlink:hover,
-.contactlink:focus {
+.contact-link:hover,
+.contact-link:focus {
 
-    color: #4D5AE5;
+    color: var(--txt-cl-logo)
 }
 .herotitle {
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color:#FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--txt-cl-dark);
 }
 
 .hero {
@@ -110,15 +105,13 @@ a {
 }
 
 .features-title{
-    font-weight: 500;
-    font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--txt-cl);
 }
 
 .features-description {
-    font-weight: 400;
-    font-size: 16px;
+
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--txt-cl-scnd);
@@ -126,11 +119,10 @@ a {
 
 .section-title {
 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    text-align: center;
     text-transform: capitalize;
+    text-align: center;
     color: var(--txt-cl);
 }
 
@@ -146,26 +138,26 @@ color: var(--txt-cl);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-text-align: center;
 color: var(--txt-cl);
 }
 
 .section-description {
-font-weight: 400;
-font-size: 16px;
 line-height: 1.5;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--txt-cl-scnd);
 }
 
+.footer-text {
+
+   
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
 .footer {
 
-background-color: var(--background-color-dark);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #E7E9FC;
+    background-color: var(--background-color-dark);
 }
 
 .web-footer {
@@ -206,15 +198,3 @@ color: #4D5AE5;
     color: #F4F4FD;
 }
 
-/* .portfolio h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.1;
-    color: #2E2F42;
-}
-.portfolio p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #434455;
-} */
